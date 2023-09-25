@@ -1,0 +1,352 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.home{
+    background-image: url("https://static.wixstatic.com/media/84770f_93b300330b3742f2b1948ef292a91f27~mv2_d_1920_1279_s_2.png/v1/fill/w_1899,h_1024,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/84770f_93b300330b3742f2b1948ef292a91f27~mv2_d_1920_1279_s_2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 850px;
+}
+nav{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+
+
+.navbar{
+    background-color: rgb(9, 9, 9);
+    opacity: 0.7;
+}
+
+
+.navbar-brand{
+    font-size: 2rem !important;
+    font-weight: 600;
+    color: rgb(189, 182, 182) !important;
+    opacity: 0.8 !important;
+}
+
+.navbar-brand span{
+    font-size: 2rem;
+    font-weight: 600;
+    opacity: 1 !important;
+  
+    margin-top: -70px;
+}
+
+.nav-item button{
+    background-color: transparent !important;
+    border-bottom: 1px solid white;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    margin-top: 6px;
+    color: rgb(204, 198, 198) !important;
+}
+.nav-item button:hover{
+    background-color: black !important;
+    border-bottom: 2px solid white;
+}
+
+.nav-item{
+    padding-left: 25px;
+}
+.nav-item a{
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+    color: rgb(134, 134, 134) !important;
+}
+.nav-item a:hover{
+    color: white !important;
+}
+.nav-item i{
+    opacity: 0.6;
+}
+.nav-item i:hover{
+    opacity: 1;
+}
+
+.text h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(205, 199, 199);
+    font-size: 3.9rem;
+    font-weight: 600;
+    padding-top: 280px;
+}
+.btn1{
+   padding-left: 650px;
+}
+
+.btn2{
+    width: 200px;
+    height: 50px;
+    color: white !important;
+    font-size: 1.3rem !important;
+    font-weight: 500 !important;
+}
+.btn2:hover{
+    color: black !important;
+}
+
+.text1 h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.6rem;
+    font-weight: 600;
+    color: rgb(137, 134, 134);
+    padding-top: 280px;
+}
+.text1{
+    background-color: black;
+    height: 700px;
+}
+.btn3{
+    display: flex;
+    justify-content: center;
+}
+.body1{
+    width: 100%;
+    overflow-x: hidden;
+    height: 360px;
+}
+.pic1{
+    background-image: url("https://static.wixstatic.com/media/84770f_93b2185955e84e4fbeeecad36c77fedc~mv2_d_1920_1920_s_2.png/v1/fill/w_951,h_903,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/84770f_93b2185955e84e4fbeeecad36c77fedc~mv2_d_1920_1920_s_2.png");
+}
+.content h3{
+    display: flex;
+    justify-content: center;
+    margin-top: -200px;
+    color: aliceblue;
+    opacity: 0;
+    
+ 
+}
+.content h3:hover{
+color: white;
+  opacity: 1;
+}
+ .bags{
+    background-color: black;
+    height: 800px;
+    width: 100%;
+} 
+.pic6{
+    padding-top: 270px; 
+}
+.pic7{
+    padding-top: 150px;
+
+}
+.pic6 img{
+    width: 200px;
+}
+.pic7 img{
+    width: 400px;
+}
+.card{
+    background-color: black !important;
+    padding-top: 160px;
+    
+}
+.card-body{
+    background-color: black !important;
+    
+    
+}
+
+.card-body h5{
+    padding-left: 70px;
+  
+
+}
+.card-body span{
+    padding-left: 50px;
+  
+}
+.card-body h5{
+    color: white !important;
+}
+.butn{
+    margin-left: 80px;
+    margin-top: -120px;
+    width: 180px;
+    opacity: 0;
+    transition: ease;
+    transition-duration: 0.5s;
+    transition-delay: 0s;
+    
+}
+.butn a{
+    text-decoration: none;
+    color: white !important;
+}
+
+.card-title{
+    opacity: 1;
+    transition: ease;
+    transition-duration: 0.5s;
+    transition-delay: 0s;
+    
+}
+.card-title:hover{
+    opacity: 0;
+}
+.bag1{
+    background-image: url("https://img.freepik.com/free-photo/natural-green-leaves-with-defocused-background_23-2148282555.jpg?size=626&ext=jpg&uid=R111465964&ga=GA1.2.1460449062.1684347991&semt=ais");
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.bag1 p{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: white;
+  
+}
+.bag1 h2{
+    text-align: start;
+    font-size: 3.3rem;
+    font-weight: 700;
+    color: white;
+  
+}
+.bag2{
+    background-image: url("https://images.pexels.com/photos/5737945/pexels-photo-5737945.jpeg?cs=srgb&dl=pexels-taryn-elliott-5737945.jpg&fm=jpg");
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form{
+    background-color: black;
+    height: 700px;
+    width: 100%;
+    padding-top: 120px;
+}
+
+.adrs{
+    display: flex;
+    flex-direction: column;
+}
+
+.name{
+    display: flex;
+    gap: 40px;
+}
+.btns{
+    border: 1px solid white;
+    width: 220px;
+    height: 40px;
+    background-color: black;
+}
+.btn8{
+    border: 1px solid white;
+    width: 480px;
+    height: 40px;
+    background-color: black;
+}
+.btn9{
+    border: 1px solid white;
+    width: 480px;
+    height: 130px;
+    background-color: black;
+}
+.btn10{
+    border: 1px solid white;
+    width: 170px;
+    height: 40px;
+    margin-left: 310px;
+    margin-top: 10px;
+    background-color: black;
+    transition: ease;
+    transition-duration: 0.5s;
+    transition-delay: 0s;
+}
+.btn10:hover{
+    background-color: rgb(32, 31, 31);
+    border: 2px solid white;
+}
+.registration h3{
+    color: whitesmoke;
+}
+.cont3{
+    flex-direction: column;
+    color: white;
+}
+.cont3 h1{
+    font-size: 3.8rem;
+    font-weight: 600;
+}
+.cont3 p{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.cont5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.footer{
+    background-color: rgb(40, 40, 40);
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+.cont5 h2{
+    font-size: 4rem;
+    font-weight: 600;
+}
+.cont5 h4{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.btn12{
+    width: 500px;
+    height: 40px;
+    border: 1px solid white;
+    background-color: rgb(40, 40, 40);
+    color: white !important;
+    transition: ease;
+    transition-duration: 0.5s;
+}
+.btn12:hover{
+    background-color: black;
+}
+.btn13{
+    width: 500px;
+    height: 40px;
+    border: 1px solid white;
+    background-color: rgb(40, 40, 40);
+    color: white !important;
+    opacity: 1;
+    transition: ease;
+    transition-duration: 0.5s;
+}
+.btn13:hover{
+    opacity: 0.7;
+}
+.last{
+    background-color: rgb(54, 54, 54);
+    height: 100px;
+    color: white;
+}
